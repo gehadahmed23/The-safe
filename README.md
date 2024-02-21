@@ -23,18 +23,26 @@ when first use, the password is set by the user and stored in EEPROM unit,If you
 🔘 Hardware:
 
 -Ultrasonic sensor
+
 -buzzer
+
 -LCD 2*16
+
 -Variable resistance << To control the lighting intensity
+
 -Keypad "with internal pull up"
+
 -AVR
+
 -Atmega32A 
 
 
 🔘 Software:
 
 -Main Application Layer
+
 -HAL Layer (LCD, EEPROM, Keypad, Ultrasonic).
+
 -MCAL Layer (DIO, TIMER).
 
 proteus design :
