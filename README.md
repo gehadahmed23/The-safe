@@ -12,9 +12,9 @@ when first use, the password is set by the user and stored in EEPROM unit,If you
 
 -In the first case, if there is a person within 10 cm of the safe, a message will appear on the LCD to test the password using Ultrasonic :
 
-      -In the first case, if password is correct , message appears on the LCD.
-      -In the second case, If it takes 20 seconds to enter the password, the system will stop and wait 15 seconds until it is used again.
-      -In the third case, if password is incorrect and you continue to enter the password for 3 times with the error, the system will stop for 10 seconds until it restarts again. However, if he continues to enter the password incorrectly 3 more times, this indicates that he is not the owner of the safe, and it will be determined that he is a thief. This will appear on the LCD screen, and the buzzer will start making a warning sound. It starts at a distance of 20 cm and stops after 2 seconds.
+1- if password is correct , message appears on the LCD.
+2- If it takes 20 seconds to enter the password, the system will stop and wait 15 seconds until it is used again.
+3- if password is incorrect and you continue to enter the password for 3 times with the error, the system will stop for 10 seconds until it restarts again. However, if he continues to enter the password incorrectly 3 more times, this indicates that he is not the owner of the safe, and it will be determined that he is a thief. This will appear on the LCD screen, and the buzzer will start making a warning sound. It starts at a distance of 20 cm and stops after 2 seconds.
       
 -In the second case, If there is no person within 10 cm of the safe, a welcome message will appear on the LCD until someone comes.
       
